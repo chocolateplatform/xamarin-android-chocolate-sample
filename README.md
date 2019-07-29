@@ -11,13 +11,32 @@ Ad Unit Types and corresponding mediation ad partners supported:
 Native Inview (300x250)
   - Chocolate, AdMob, AppLovin, Amazon, Criteo
 Fullscreen Rewarded Video
-  - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo
+  - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo, Unity Ads
 Fullscreen Interstitial
-  - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo
+  - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo, Unity Ads
   
 All dependencies are NuGet packages, including all Chocolate related packages.  Android and GooglePlayServices packages, including the GooglePlayServices ads packages, are also all NuGet packages.
 
-MonoAndroid 8.1
+All Chocolate packages have been built targeting MonoAndroid 8.1
 
+Build notes: You will need to add the following NuGet packages/versions:
 
+  If you are targeting MonoAndroid 8.1, do not install GooglePlayServices higher than 60.1142.1
+  
+  <package id="Xamarin.GooglePlayServices.Ads" version="60.1142.1" targetFramework="monoandroid81" />
+  <package id="Xamarin.GooglePlayServices.Ads.Lite" version="60.1142.1" targetFramework="monoandroid81" />
+  <package id="Xamarin.GooglePlayServices.Base" version="60.1142.1" targetFramework="monoandroid81" />
+  <package id="Xamarin.GooglePlayServices.Basement" version="60.1142.1" targetFramework="monoandroid81" />
+  <package id="Xamarin.GooglePlayServices.Clearcut" version="60.1142.0" targetFramework="monoandroid81" />
+  <package id="Xamarin.GooglePlayServices.Gass" version="60.1142.1" targetFramework="monoandroid81" />
+  <package id="Xamarin.GooglePlayServices.Tasks" version="60.1142.1" targetFramework="monoandroid81" />
+  
+  Chocolate packages:
+  <package id="xam.android.chocolate_adcolony_adapter" version="1.0.1" targetFramework="monoandroid81" />
+  <package id="xam.android.chocolate_ads_admob_adapter" version="1.0.1" targetFramework="monoandroid81" />
+  <package id="xam.android.chocolate_amazon_adapter" version="1.0.2" targetFramework="monoandroid81" />
+  <package id="xam.android.chocolate_applovin_adapter" version="1.0.1" targetFramework="monoandroid81" />
+  <package id="xam.android.chocolate_criteo_adapter" version="1.0.1" targetFramework="monoandroid81" />
+  <package id="xam.android.chocolate_sdk_core" version="2.8.7" targetFramework="monoandroid81" />
+  <package id="xam.android.chocolate_unityads_adapter" version="1.0.1" targetFramework="monoandroid81" />
 
