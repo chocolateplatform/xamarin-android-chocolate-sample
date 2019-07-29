@@ -1,2 +1,0 @@
-int dimen mrec_ad_height 0x7f070001
-int dimen mrec_ad_width 0x7f070002
