@@ -27,7 +27,7 @@ namespace ChocolateSample
         private LVDOAdRequest chocolateAdRequest;
         private int requestedAdType;
 
-        const bool DO_ENABLE_TEST_ADS = false;
+        const bool DO_ENABLE_TEST_ADS = true;
         const string CHOCOLATE_API_KEY = "XqjhRR";
         const int ADTYPE_INTERSTITIAL = 0;
         const int ADTYPE_REWARDED = 1;
