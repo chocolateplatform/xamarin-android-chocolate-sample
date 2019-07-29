@@ -8,10 +8,13 @@ See MainActivity.cs
   - DO_ENABLE_TEST_ADS: initially set to 'false'.  If set 'true', you can specify particular desired sets of ad partners.
 
 Ad Unit Types and corresponding mediation ad partners supported:
+
 Native Inview (300x250)
   - Chocolate, AdMob, AppLovin, Amazon, Criteo
+  
 Fullscreen Rewarded Video
   - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo, Unity Ads
+  
 Fullscreen Interstitial
   - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo, Unity Ads
   
@@ -19,7 +22,7 @@ All dependencies are NuGet packages, including all Chocolate related packages.  
 
 All Chocolate packages have been built targeting MonoAndroid 8.1
 
-Build notes: You will need to add the following NuGet packages/versions:
+- To get everything to build, you will need to remove the packages and re-add them via NuGet, one by one, including Android Support v4 and v7 App Compat version (28.0.0.1)  Re-build all.
 
   If you are targeting MonoAndroid 8.1, do not install GooglePlayServices higher than 60.1142.1
   
@@ -40,4 +43,3 @@ Build notes: You will need to add the following NuGet packages/versions:
   package id="xam.android.chocolate_sdk_core" version="2.8.7" targetFramework="monoandroid81" 
   package id="xam.android.chocolate_unityads_adapter" version="1.0.1" targetFramework="monoandroid81" 
 
-- To get everything to build, you will need to remove the packages above and re-add them via NuGet, one by one, including Android Support v4 and v7 App Compat version (28.0.0.1)  Re-build all.
