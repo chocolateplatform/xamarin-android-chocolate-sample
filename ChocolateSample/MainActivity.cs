@@ -14,12 +14,12 @@ using Com.Vdopia.Ads.LW;
 
 namespace ChocolateSample
 {
-	[Activity (Label = "@string/app_name", MainLauncher = true)]
-	public class MainActivity : AppCompatActivity, IInitCallback, IRewardedAdListener, ILVDOBannerAdListener, ILVDOInterstitialListener, IDialogInterfaceOnClickListener
+    [Activity(Label = "@string/app_name", MainLauncher = true)]
+    public class MainActivity : AppCompatActivity, IInitCallback, IRewardedAdListener, ILVDOBannerAdListener, ILVDOInterstitialListener, IDialogInterfaceOnClickListener
     {
-		protected AdView admobBannerAd;
-		//protected InterstitialAd admobInterstitialAd;
-		protected Button loadInterstitialButton, loadRewardedButton, loadInviewButton;
+        protected AdView admobBannerAd;
+        //protected InterstitialAd admobInterstitialAd;
+        protected Button loadInterstitialButton, loadRewardedButton, loadInviewButton;
         private ViewGroup chocolateInviewAdContainer;
         private LVDOInterstitialAd chocolateInterstitialAd;
         private LVDORewardedAd chocolateRewardedAd;
@@ -27,30 +27,31 @@ namespace ChocolateSample
         private LVDOAdRequest chocolateAdRequest;
         private int requestedAdType;
 
+        const bool DO_ENABLE_TEST_ADS = false;
         const string CHOCOLATE_API_KEY = "XqjhRR";
         const int ADTYPE_INTERSTITIAL = 0;
         const int ADTYPE_REWARDED = 1;
         const int ADTYPE_INVIEW = 2;
 
-        protected override void OnCreate (Bundle savedInstanceState)
-		{
-			base.OnCreate (savedInstanceState);
-            enableTestAds(true);
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+            enableTestAds(DO_ENABLE_TEST_ADS);
 
-            SetContentView (Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.activity_main);
 
-			admobBannerAd = FindViewById<AdView> (Resource.Id.adView);
+            admobBannerAd = FindViewById<AdView>(Resource.Id.adView);
             chocolateInviewAdContainer = FindViewById<ViewGroup>(Resource.Id.chocolateInviewAdContainer);
-            var adRequest = new AdRequest.Builder ().Build ();
-			admobBannerAd.LoadAd (adRequest);
+            var adRequest = new AdRequest.Builder().Build();
+            admobBannerAd.LoadAd(adRequest);
 
-			//admobInterstitialAd = new InterstitialAd (this);
-			//admobInterstitialAd.AdUnitId = GetString (Resource.String.test_interstitial_ad_unit_id);
+            //admobInterstitialAd = new InterstitialAd (this);
+            //admobInterstitialAd.AdUnitId = GetString (Resource.String.test_interstitial_ad_unit_id);
 
-			//admobInterstitialAd.AdListener = new AdListener (this);
+            //admobInterstitialAd.AdListener = new AdListener (this);
 
-			loadInterstitialButton = FindViewById<Button> (Resource.Id.load_interstitial_button);
-			loadInterstitialButton.SetOnClickListener (new OnClickListener (this, ADTYPE_INTERSTITIAL));
+            loadInterstitialButton = FindViewById<Button>(Resource.Id.load_interstitial_button);
+            loadInterstitialButton.SetOnClickListener(new OnClickListener(this, ADTYPE_INTERSTITIAL));
             loadRewardedButton = FindViewById<Button>(Resource.Id.load_rewarded_button);
             loadRewardedButton.SetOnClickListener(new OnClickListener(this, ADTYPE_REWARDED));
             loadInviewButton = FindViewById<Button>(Resource.Id.load_inview_button);
@@ -176,110 +177,102 @@ namespace ChocolateSample
         {
             if (requestedAdType == ADTYPE_INTERSTITIAL)
             {
-                ChocolatePartners.SetInterstitialPartners(chocolateAdRequest);
+                if (DO_ENABLE_TEST_ADS)
+                {
+                    ChocolatePartners.SetInterstitialPartners(chocolateAdRequest);
+                }
                 chocolateInterstitialAd.LoadAd(chocolateAdRequest);
             }
             else if (requestedAdType == ADTYPE_REWARDED)
             {
-                ChocolatePartners.SetRewardedPartners(chocolateAdRequest);
+                if (DO_ENABLE_TEST_ADS)
+                {
+                    ChocolatePartners.SetRewardedPartners(chocolateAdRequest);
+                }
                 chocolateRewardedAd.LoadAd(chocolateAdRequest);
             }
             else if (requestedAdType == ADTYPE_INVIEW)
             {
-                ChocolatePartners.SetInviewPartners(chocolateAdRequest);
+                if (DO_ENABLE_TEST_ADS)
+                {
+                    ChocolatePartners.SetInviewPartners(chocolateAdRequest);
+                }
                 chocolateInviewAd.LoadAd(chocolateAdRequest);
             }
         }
 
-        protected void RequestNewInterstitial ()
-		{
-            requestedAdType = ADTYPE_INTERSTITIAL;
-            ChocolatePartners.ChoosePartners(requestedAdType, this, this);
-        }
-
-        protected void RequestNewRewarded()
+        private void choosePartner(int adType)
         {
-            requestedAdType = ADTYPE_REWARDED;
-            ChocolatePartners.ChoosePartners(requestedAdType, this, this);
+            requestedAdType = adType;
+            if (DO_ENABLE_TEST_ADS)
+            {
+                ChocolatePartners.ChoosePartners(requestedAdType, this, this);
+            }
+            else
+            {
+                OnClick(null, 0);
+            }
         }
 
-        protected void RequestInview()
+        protected override void OnPause()
         {
-            requestedAdType = ADTYPE_INVIEW;
-            ChocolatePartners.ChoosePartners(requestedAdType, this, this);
+            if (admobBannerAd != null)
+            {
+                admobBannerAd.Pause();
+            }
+            base.OnPause();
         }
 
-		protected override void OnPause ()
-		{
-			if (admobBannerAd != null) {
-				admobBannerAd.Pause ();
-			}
-			base.OnPause ();
-		}
-
-		protected override void OnResume ()
-		{
-			base.OnResume ();
-			if (admobBannerAd != null) {
-				admobBannerAd.Resume ();
-			}
-            /*  kkawai
-			if (!mInterstitialAd.IsLoaded) {
-				RequestNewInterstitial ();
-			}
-			*/
+        protected override void OnResume()
+        {
+            base.OnResume();
+            if (admobBannerAd != null)
+            {
+                admobBannerAd.Resume();
+            }
         }
 
-		protected override void OnDestroy ()
-		{
-			if (admobBannerAd != null) {
-				admobBannerAd.Destroy ();
-			}
-			base.OnDestroy ();
-		}
+        protected override void OnDestroy()
+        {
+            if (admobBannerAd != null)
+            {
+                admobBannerAd.Destroy();
+            }
+            base.OnDestroy();
+        }
 
-		class AdListener : Android.Gms.Ads.AdListener
-		{
-			MainActivity that;
+        class AdListener : Android.Gms.Ads.AdListener
+        {
+            MainActivity that;
 
-			public AdListener (MainActivity t)
-			{
-				that = t;
-			}
+            public AdListener(MainActivity t)
+            {
+                that = t;
+            }
 
-			public override void OnAdClosed ()
-			{
-
-			}
-		}
-
-		class OnClickListener : Java.Lang.Object, View.IOnClickListener
-		{
-			MainActivity that;
-            int adType;
-
-			public OnClickListener (MainActivity t, int adType)
-			{
-				that = t;
-                this.adType = adType;
-			}
-
-			public void OnClick (View v)
-			{
-                if (adType == ADTYPE_INTERSTITIAL)
-                {
-                    that.RequestNewInterstitial();
-                } else if (adType == ADTYPE_REWARDED)
-                {
-                    that.RequestNewRewarded();
-                } else if (adType == ADTYPE_INVIEW)
-                {
-                    that.RequestInview();
-                }
+            public override void OnAdClosed()
+            {
 
             }
-		}
-	}
+        }
+
+        class OnClickListener : Java.Lang.Object, View.IOnClickListener
+        {
+            MainActivity that;
+            int adType;
+
+            public OnClickListener(MainActivity t, int adType)
+            {
+                that = t;
+                this.adType = adType;
+            }
+
+            public void OnClick(View v)
+            {
+                that.choosePartner(adType);
+            }
+        }
+    }
 }
 
 
