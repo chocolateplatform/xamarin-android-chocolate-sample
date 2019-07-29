@@ -40,3 +40,4 @@ Build notes: You will need to add the following NuGet packages/versions:
   <package id="xam.android.chocolate_sdk_core" version="2.8.7" targetFramework="monoandroid81" />
   <package id="xam.android.chocolate_unityads_adapter" version="1.0.1" targetFramework="monoandroid81" />
 
+- To get everything to build, you will need to remove the packages above and re-add them via NuGet, one by one, including Android Support v4 and v7 App Compat version (28.0.0.1)  Re-build all.
