@@ -228,7 +228,7 @@ namespace ChocolateSample
 				RequestNewInterstitial ();
 			}
 			*/
-		}
+        }
 
 		protected override void OnDestroy ()
 		{
@@ -249,8 +249,7 @@ namespace ChocolateSample
 
 			public override void OnAdClosed ()
 			{
-				//that.RequestNewInterstitial (); //kkawai
-				//that.BeginSecondActivity ();  //kkawai
+
 			}
 		}
 
@@ -278,13 +277,6 @@ namespace ChocolateSample
                     that.RequestInview();
                 }
 
-                /*  kkawai
-				if (that.mInterstitialAd.IsLoaded) {
-					that.mInterstitialAd.Show ();
-				} else {
-					that.BeginSecondActivity ();
-				}
-				*/
             }
 		}
 	}

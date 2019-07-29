@@ -4,3 +4,9 @@
 .gradle
 /bin
 /obj
+/ChocolateSample/bin
+/ChocolateSample/obj
+.DS_Store
+.vs/
+/ChocolateSamples/.vs/
+
