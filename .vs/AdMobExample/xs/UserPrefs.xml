@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{A61EAEB7-B7DE-4B34-AB8C-47075131C003}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdMobExample/MainActivity.cs">
+    <Files>
+      <File FileName="AdMobExample/MainActivity.cs" Line="26" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AdMobExample" expanded="True">
+            <Node name="AdMobExample" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ChocolateSample AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_10_API_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

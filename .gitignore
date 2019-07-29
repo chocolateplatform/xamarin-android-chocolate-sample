@@ -1,0 +1,6 @@
+*.pdb
+*.dll
+*.apk
+.gradle
+/bin
+/obj

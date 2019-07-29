@@ -1,0 +1,116 @@
+<VAST version="2.0">
+    <Ad id="y764c2t0-s">
+        <InLine>
+            <AdSystem version="1.0">Chocolate platform</AdSystem>
+            <AdTitle>
+                <![CDATA[ Chocolate platform - Pre-Roll :15 ]]>
+            </AdTitle>
+            <Impression>
+                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=d_m5RStwGCbBBlSI0wvgzpGa8CXJ_SdlCoMBDIAWBftWCkwnbwwiiiWRnAJcsbxx6j9BLz-AQkP1jm9Bxkec7N3jNikRF_c11yh4hq86_-Zke5TQjWiewh1bm5DYyrLsYCo2cbzAwpgKJYZsqrcI6gXpZ4lG5MpUObzAyhon0_OfyuCGV_XqO3WwOml8jlbI2TY9K74S_Bgs-G-NcXBTbGdemIBgyrKfcbdwJQgvc6IDrzw1sN1WTRSbujkrkDfZ-U22kxUwazJyp4E2mCU_BBzJaIrvOHOAVhYmtyGUiSchSWO_PQ2ktB7ZiF_5jB1Ebhf0_B-tkJ4YOQIrB1oJOScJd1vNRw0sxczfX5Qfw99s3Swl1KcE7y83mjNYblDnR6nRfBYX71vpWcoyix2GvODCX95P6FsdWRrN7e_BdgA1uMMwD5YdIRijblWdcR_9tC_RnrnkKeExHyMbxVHkp-EFUN5wGHT4b-pz6bgAkYokXveFO2uzhX65j-1G2fhbG_SIHlwHFmSOkc9qw3Ee6V9dHXfgLbre9zWesXBUrVLN2-oBiT8Qpd6j
+]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="mute">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=nCoody30fv82nMBF7hkUxuh458uqEX7gi0rr2y2wTl4focBJ7S6UvJeVOUpUhO1FDULBIAmzRXc1PeQ-RTDpy53SEvXx6SJTXoV9K0jqKKpPeHXs6-d9f7vaPDLzXU7o0Rc1h9mn5zOSGGOTAW2vltC-goJy5p_EZeJCq7wEwXuaqTlWxTo3VKN5yhoomjBfxHuB73SU3iLjAWOInnmjnJcSYnfDF-VrkmOKRsoSCIJZdWYOxlPBZ2-gvxf4bURzwKNIC3v8l9oLiwwsqGUCkuj9zNmMrlymLdq9kKydqN3vvtiy_b3jiU1ci1BF2C9saWLMqEHI26C5SmcN9G2ppL2UxvYfMYDgGLiFk6Tyr1BdcT3GmjXOEu9TxCJ-OIHdeAJMD1zk5Vax47ST7xNq7QNfL9RdBSmwF-OT7yyBLJR6eJ1KC5eWcJuFFRQz6o7QWwLWPHBM2hmFRl20CjymGfdbthskm1FUx0DYLyU001H1UhTSkODXqdPZGZOGb_TE6vGKw3e1qYscLrB3irYYky8NU_vMs2VJy1spJdsB2bpgsmE6DoYEiE3IxYvu
+]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=YlzKO5fQUdC9UA2Eu_TXrVSA4G4FYPs-jFexD31g0wKSwR15FONoJ-AB0kOQ8h5C10LWA-bgbn--WMd9hNBy-95sB3o7r1sra7RjPkpH2sV9F7WJ39dfeZwY1d9YAUVo1ufRcZxnCEVUYGPREJkSttZ1Vu-E3X6Hbt9G52l9pN26OVaIT9aCu3XxR3rnkmQlJDQKibkqv1MTt6VU7gQ7KrV0zOsp7qeZwaZ-dTgEXXOJKTOaVcp9iZuz3Lj5PlI3TmSbMs_MonOEfLZ0JrumYAfLMs5WGx-Q0l_BptSUnDPG6h8lqKNLCRkzdL1mHNxMHBU_yGOVKLnXd4r1VnzFV8E8gewWkdaXR9BDYgK2mfSldy-xeMNe9OHju2FmS51-oYgVuF5pTgv7xD79K-5GhGvCSpC7eCnW3cQJStMVggJgGJvSN_OSsqdL68oDCXrlXN7-ygoDJjkXmGD98hR1JuSKFDzVT4boj6lr2JHB8Q_jpEiA9jxIyk2V7AenxySPpMu9kIi6gm93SEypPdjA0Gf6RLc6KtVqpYkfnklCxqSLGWLskLMuixdjTPRM
+]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=vqBL2ERzsbn_QTUA-T-XBLMwtqLH7keTnTPuP2ounacKiuXHUu4rfgDxluVLgJX0hAfky-uQmqCo-sspRvRWxxvxGprEo_mLk7h8nUcP91Wl-VYdgyYWNKw_fevfXeiJZ-dpWPAXJpmgWycrxWMVvy9kQFC_X0-Zz8xZOovvsYFNRyzD3uw0WPyjKQ9ggD2DJmPqIAa4RHUgntzJH9dspsE60MnDx1f5utVnfiPtIPvHRLvyZqAB3LAWoe0VJriNkv3wSWQHYfR3O63-d26S18I3y30aJKm-o_zYv2QKtUv9C-PAZzi9Wmk8-fd4qo3IXq-WuHvCf4_4IB_eBJXfeT4ziaIRDWx-lCueo4HVMl0xRMBWhpb-rHoZpq1znqbn_akZPDGGLWNV7DVSpDYPZnmYQKtehsk23b9S7O9H7g9--nxTsQ8XO7kwBqCzanaj1-jlDMleQmUWv_2UUbaSbHhIqGoeKAEQqGXDvjQmF9TADs_WEz-8d_aGBXkTg7e83ShwH40dHs0tp3Nwk27CA5cjNC4OpeZvYPVeDphYVfFSjMpug-J54d-JZ9_g
+]]>
+                            </Tracking>
+                            <Tracking event="fullscreen">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=g0SGnzCUoJ1ZVVy80JD43AcIjDr6wNQsjFsQ4jFyUoq8xrSoK09he_LlSxdXBOc9oGLo_GYXFbzY_xiC7sN1OeZB2avkw-Wjli-AsunwrDCn0IdDoqPOZ3nc7zcB9-fPjY216kKIzprESzzkqdqGEROlqbAA09rXJ_rmKs_bl7UUsEGqkCI4Hj0Q10Pe_aQoaatpKqY7dSCViI5ur5OKR3SjyosVMrB5CD7cNdZFIWraUSEyW7yRZN8Dh5UZcwqN6R9wwMb7C5ISRmjW_oiybneOL0sWTIL3-7VY1YG9OJjjQUVQT-nVKbt-DgfY7FUSLn8MNG8hmzZPE9ndGRzIef2uPcHTFha713q49qAs01KGUKYmP9HpAOR710wwjoa9v81XSwje_Lcqj729lyIbavvgzCvHIGVhwbkqZUb3CO0nMb6vmpFdCXTiU_DEOBdvahDjITHAbN9YuDx76yad_sMfaru0YOCS0fxRoUwhuQ3VrVk1y5NS8lDHo_eUJkZPPNuVgj5MyFH7VdhpFNLhmUoRtWrb4M-Plm56tOfCB7VBlCQ415lfq8iF
+]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=14Kzel4R5Fsm_Tv56jfSiRlbUgvBb0S9lJbJFNIq9DxGcvqns750iH4nzWAbRQdWLwm3phgy3_ZbienXbFPHjqkmdt7Cw5J1H4IxaC5MfkNh-mT1nfY2zO-ZzdYe52bqc-rukY6H1MVnPVTegtZx39i1SJnXzD4M_VKulZOVkVtTwPhyvwbSC3a9HzIMWB1GKVYUqWcQkPuPzMZJKpMenX_eehnrWKIEvJnbXy-bazpyBUV_jeCu1rZ4_JQct9StvaiUblLwwasGeCVzTLyUt2efkvlrHtoDaN1B0W919eST93bAMnrNL2UF9V9RbxyPRCHAYS_WKeN5QjpWX_OhQxXicARJHcIuUBsoLlwi2zjte6fQ_stKltK8vAR2rRiBAimkIxqyWGA8ctM2Abq8gBqpk4uj32tjcoRDqHXOjGKywDwIK6EEk47Xsku6AbPvkPRYj4lxurkrXPXexJ0dEV8SFRE79XLXhDoqYqrgh3y-4Vhfq3cLvso7j03IbiSdI22XQ7FilH_g0ShcrHLAcyOhUUO6uov4L7trfeCTWXdhpsXqgN9HmdMw-kGf
+]]>
+                            </Tracking>
+                            <Tracking event="skip">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=0y7JcAiSGHSoUiP-eJvrYcWnDBeOKjvqGXwqYkHuMrxi_pnSynijTFnvvL2I17qYPIZCcvrWwz7rf35aFeWpUc0bA9fFM6E3sg0c8yrWVgvwirmC5lYDEpbgAr7OBcFj018kOk3Kv2p7X5yK1m1yb4vDfPBqL82oB_iRkbjl2FFvq64ZZhaCA_RcGBQvM1bv_Ke2G9iJOc11wLGP9_tXy2AQoAdAn998eWD81l2-Cny5FUlTVlydQriK5GVMNfrjyh0qXAIEKaiCTeekt2ZYYUpQGgdkCoAoTpgxdvxsqycmGRpoF01q-FRAO51jUONzHJ7O-M2vC91B3FjX-6ueUJRGc3MzfA2MlsQr6pILcqge4sdwKNeSU3pGDPHGwVugu0jRvj1bz9EkI909cBFDw3OOF-fyBrWmSg2CivwCA5FFzVdjzMCTHlh4RV3UboOrb33LIBpM9phNnbZ4oIDNLlfpRfkzxOd2odmOm7Q2iV9R8LklZIe9jf4vBtlmpriSxAHiZ1FVY6eP6KjkxCXjDugwk9jYgX_kBuIJ9pkxtQ_9lzE2FIVVSFTgFVFP
+]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=mH3BAndMHkv6wLWo7kx9keBwpZqKmmYwxZYsnDWYG2cYzH1XlQbAHoLH7SPftDrDlsFdfVZ7uqEuvTw_gPuG2LJwmZOQr8yMh--rrCQMrCtJW7Jy6BZoJqOZgI5g0ShM4ugkgKNwPIAdZdcCY21FL5jjIwVb6BUrnhFfhGVIJM16rNECoJ_vZvDSms3lH1l7Y_WWXXgAWrGNR0uHUhB04bqai87HfX3BCpYl0d4ucncb7nwRiFl40gNuFRD2rD2o2aKh_WGKzbSSWBoMOaqX0cruxJArAGW2SOj0hEPZv-1xYdBpkfVszxZ6S-_D3nHvyw2AlyM2a4simVMgDFGnDWAE2Qo1ID_G_T6tqixFX3Jlnv8Je-tr-mzth3psyYFkMtKP4yeYApFmXeIs0uUemA9fldU_pFGkKkucUSTVddOgOdZbWdrOEJw-zsnSDcoC2Xw1aKRW3sPqHqkI_i7xUkiTdMCDQZtKqFPRLdNXMBeUA6eLGQs5NJySKeD7Ha_w_GAyIwkeRJsh6vHzrifEqzz-ndFzdAmisSy166a-64f23Sup617WcAxa
+]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=bJ0Thk8IUS4XGiG28Y-W52OcPJQqLb054GJUv0ZykHiNSK3O3CX72hDmNjILr4KhLhZZBs8P5I1feXZCAD71CLacNx9pWvHgxbI75Aw2Yav55W82vcKMazKYnUSgivUMsAI_-Ugnk255VFW6vJJr_GlS-v7SeeEvtO2qq25wCuTyxLwLm3DqUkUK63ba0M2kdStPZx6ByAe0junWMz4-boIBsZzKDRPbwmKwLvHjB0LIe5WShWt9_-vGkx5aF0lPbYP66IWcOVsXQ1DferhB4LROnbMtedrgzx3LxWnuDuo54pqoBO2s9Zy2BNQmlkaWbbH60dybyCwx4u5vIUowr79qIdLXuItJexP4YYZf6Mg3KxiYYFC0QffPA9XVai-mzhe9QGKk6MDVq2QmAYnoWAmK8DEjiYWYXjgGplXLVaUSWwW6zgI2-9zmExnkvKCJYS0zJhC-fFy8xxqs3pwqUy3ffDOdW9dGFVmWbR5K-TDaGe8xWZ8SfbgyF3enXyGEyW3D-BY1oahNwplkfAjt8H79zmNqI4fZndbhzEwz9-gu6ReNkEsT6pJ6pX6wqA==
+]]>
+                            </Tracking>
+                            <Tracking event="close">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=N5q50LmPjMg7RCnZ8vPTm_uOHGnwdyfrOw_6B6DEpUrejSmEzx7gSo9rOsqmrZPI8ezwDqO2HSoQe69x6URqkyzaCBYSyptYIUiDa9t8E0OHT60K0Aw6rYq5RgfZ7LNesv-nniWAV-s0ej7zxSE9rCxqfbca_y_xtQ7V672vrYMvc6I4dQ-CU08gVsWtxyDCXGv2qS96ordcRULpFY_pnIeutU2WvfYETnTQ4wqeo9I-ZPJh3S7JnA1IfchMIFljlJeRTGL631n8YMz6d54EuITqXNAdZTRNWkeVsIBhpoVDtH0nPiQ0k2AGuzkyYotVwjnNincbfvHlyPbed2GAflL4pgp1IRfSWrWzv-eq6kwn5XSuqWqJptVZ1nPRoz8tbjSObcgghAPSjWzlALCBP4OR6xv40Vaw3B5brIm5Ue7LNBHcMZrrgDCe4oWZVSV49yyUx_9HcYSPrKQ_T3EVanFYV1X9RsrlDAqxyhM5C4QajjWTlUgU6fjLuJarTUGtwCyXEg3Y1LInHP0u0NJs3cnWVdPXrfSGBd465JIY0wRkcU32Jj4uLKwv
+]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=iMOAN-WgvUy9ikrZBtjUCcmS2ezPGahHgCTgsGhyODdgM_Y4cX8HWGjZaJX9fWM_vGFOm0a-qJYFyjsmxDOTxRA70H9QmkH5r3U4ZN5kZqLNoNj_jY2a4aRPstcx7Mk5V_gMMW8zujb_UGSIIXmBAa0LM4pXAiR9-eBoBLYqa25EkGFx4yKh69nzX6UnqrRoNB7vsGA1eC2_bzDz4lQhY5O97Op0WtLky2JpTZoX9Gg6ijQ58Yosl_O6wr-eFEClRWt-Z9SMHNFihHmLLuabzaGIFMgbl1IgbVuBQW7eGZZ_pYist4qjCE7RVOCWN7T24Dh_ODGwnSc0QVH91SxFGR2043U-7pujOJcdojkHTQ06iLOGUe1l1O2p67J-DtNQEIReKw5y-c3Pp5S4fc99cw7CK8HvFhAXrbtHfQpDhW3dJit-FapkHrF9S3_OPAkamJAAsvNkPPkhZEVrOhvCi-53aS8q5x-xXNQYOsuqHuuU09WwbdAngL1XneH_-5Wvwy18_1JiDupFmypaRl9B9vNZZiOYJ1GYIFdu8shiUPEyCQ9IO4GWAauOuFb3
+]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=vjkDGWWbmqLNT6hL1GZKqpU9PkVBrJubSaZpKT2YXL4RbAbzjU5EJpG3FDgayxWH9QG--Dv2jDdYVbzgSp2I8P4u03k-2tbHPFzrFj72Qkaoine_C7dXXw7ig37c2kS6bOKGZt2ZTO8CJISalmERqBUsK0qXFad4wVXDbKIf1TjUJXU9DxGldNV4nx0F_JvoYtoD9YVV5h2TeW9QLERMfVaVID7hQmMsivVrsmAyVyrXNEN2gDVN3Tt1-Riody795fP6gI0ST7IeWQrXd2fyWdH94YuqR-kuLOc0EyE87qHnA95AogFznh1eUF1CQzhjhcIpKHRQ3ocGtMiVsffVF8pkSYVOqMY-opNnLMfwVZcOX5lBJ70LGxTwVo1HrDGJUJZiIyQIb6hvV8tDx2RlZ3gK4syjC17mJ6noLgVe81XvS7a5ch8TKxGBjEyfgxx35XqZaRo3pIiejJobn9pjjYHI0Jv9ggLLJ2cP1wLPDIb--NhCGKoygZcNtQEvu3TYN1wGCvcH_UiZAIzmIRFv5L_BB57GuA71Ug7G1FPaonEPxtuzpYmqODmcHESM
+]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[ https://www.chocolateplatform.com ]]>
+                            </ClickThrough>
+                            <ClickTracking>
+                                <![CDATA[
+https://trkstaging.vdopia.com/tracker/?p=vP6V7OtJUzPrGLe9AnPUlKWGUXDrD_dHQKKrlFHOiLVJw6FaY-jlKinlJpRqhNNtnOIpHxl0GcGAt_Cc9bViOGHFeKYfDERqaYsNAY9e-E_EvyU7qWZF9Sycv3lLAmiUwiPkes2bqplD8iHTo9yMJogyFlNGxkmQwTIF-z8VQsWWlm2HeostDquTb2nwJYaOWz4yGt7JqeueGIxWgCPdcKBD3DzIJNkj52CScApEhb6E3Xs_ALfxKYsDCNc1Qnu_JMCRNvNlXPQ5N_dbruLuzicIfAow7F9XjjcgpGFFr9wE3Mxu3Nb7q03hpKNjXbGHZA1GlmrW9o4fG3L_rwYmKZNVqVq_jy_K9FxBGm3g1Bw3kQp1Eby4PmRKDmbNPFyt1LrEtTg7TtgagjoJLiCOogziqlmJ_ZFGgoVxPqLvHvb6QQKMWsJ3OkHbdcYfd5-_S3OUSbEFiDRPUMRN5E7fnPbqngtfjroPd9yi8MLXkC_8HEPSLENR6FPraPuWSYU7GbGZXsO1iXDpUFIg2TyZliiMRUV8YOlO_iKbYP878XNo4hhpOC9Wby2P
+]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile bitrate="2838" delivery="progressive" height="360" type="video/mp4" width="640">
+                                <![CDATA[
+https://v.adsrvr.org/9b48njw/2v7ezyk/y764c2t09115fa8fdeed4ef88089cec513d745e4.mp4
+]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+
+                <LearnMoreText>
+                    <![CDATA[ Learn More ]]>
+                </LearnMoreText>
+                <AdsByText>
+                    <![CDATA[ Ads by Vdopia ]]>
+                </AdsByText>
+                <!--<SkipAfterSeconds>-->
+                    <!--<![CDATA[ 5 ]]>-->
+                <!--</SkipAfterSeconds>-->
+                <Moat>
+                    <MoatOnOff>On</MoatOnOff>
+                </Moat>
+
+                <Extension type="Value">
+                    <Price model="CPM" source="Vdopia">3.7600</Price>
+                    <Currency>USD</Currency>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>
