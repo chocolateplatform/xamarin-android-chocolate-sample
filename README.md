@@ -5,7 +5,9 @@ This sample demonstrates how to display different types of ads using Chocolate M
 It also dislays an AdMob 320x50 banner ad (not part of the Chocolate sdk).
 
 See MainActivity.cs
-  - DO_ENABLE_TEST_ADS: initially set to 'false'.  If set 'true', you can specify particular desired sets of ad partners.
+  - DO_ENABLE_TEST_ADS: If set 'true', you can specify particular desired sets of ad partners.  If set 'false' will run in production mode.
+  
+You may also download the full project: https://www.dropbox.com/s/k2a1qvni7l1fwom/xamarin-android-chocolate-sample.zip?dl=1
 
 Ad Unit Types and corresponding mediation ad partners supported:
 
