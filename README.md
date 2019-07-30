@@ -2,12 +2,12 @@ Chocolate Sample
 =================
 
 This sample demonstrates how to display different types of ads using Chocolate Mediation Ads SDK.
-It also dislays an AdMob 320x50 banner ad (not part of the Chocolate sdk).
+It also dislays an AdMob 320x50 banner ad (not part of the Chocolate sdk).  If you want to build this project, please keep reading.
 
 See MainActivity.cs
   - DO_ENABLE_TEST_ADS: If set 'true', you can specify particular desired sets of ad partners.  If set 'false' will run in production mode.
   
-You may also download the full project: https://www.dropbox.com/s/k2a1qvni7l1fwom/xamarin-android-chocolate-sample.zip?dl=1
+You may also download the full project (which builds fine): https://www.dropbox.com/s/k2a1qvni7l1fwom/xamarin-android-chocolate-sample.zip?dl=1
 
 Ad Unit Types and corresponding mediation ad partners supported:
 
@@ -19,29 +19,17 @@ Fullscreen Rewarded Video
   
 Fullscreen Interstitial
   - Chocolate, AdMob, AdColony, AppLovin, Amazon, Criteo, Unity Ads
-  
-All dependencies are NuGet packages, including all Chocolate related packages.  Android and GooglePlayServices packages, including the GooglePlayServices ads packages, are also all NuGet packages.
+ 
+BUILD INSTRUCTIONS:
+If you want to build the project via git clone, you will need to add all package dependencies manually via NuGet package manager in Visual Studio.  This is because the packages directory was not pushed to git since these are mostly binary dll files.
 
-All Chocolate packages have been built targeting MonoAndroid 8.1
+This project is targetted for MonoAndroid 8.1.
 
-- To get everything to build, you will need to remove the packages and re-add them via NuGet, one by one, including Android Support v4 and v7 App Compat version (28.0.0.1)  Re-build all.
+IMPORTANT NOTE:  You must install version 60.1142.1 GooglePlayServices packages, since that version is compatable with MonoAndroid 8.1
 
-  If you are targeting MonoAndroid 8.1, do not install GooglePlayServices higher than 60.1142.1
-  
-  package id="Xamarin.GooglePlayServices.Ads" version="60.1142.1" targetFramework="monoandroid81" 
-  package id="Xamarin.GooglePlayServices.Ads.Lite" version="60.1142.1" targetFramework="monoandroid81"
-  package id="Xamarin.GooglePlayServices.Base" version="60.1142.1" targetFramework="monoandroid81" 
-  package id="Xamarin.GooglePlayServices.Basement" version="60.1142.1" targetFramework="monoandroid81" 
-  package id="Xamarin.GooglePlayServices.Clearcut" version="60.1142.0" targetFramework="monoandroid81" 
-  package id="Xamarin.GooglePlayServices.Gass" version="60.1142.1" targetFramework="monoandroid81" 
-  package id="Xamarin.GooglePlayServices.Tasks" version="60.1142.1" targetFramework="monoandroid81" 
-  
-  Chocolate packages:
-  package id="xam.android.chocolate_adcolony_adapter" version="1.0.1" targetFramework="monoandroid81" 
-  package id="xam.android.chocolate_ads_admob_adapter" version="1.0.1" targetFramework="monoandroid81" 
-  package id="xam.android.chocolate_amazon_adapter" version="1.0.2" targetFramework="monoandroid81" 
-  package id="xam.android.chocolate_applovin_adapter" version="1.0.1" targetFramework="monoandroid81" 
-  package id="xam.android.chocolate_criteo_adapter" version="1.0.1" targetFramework="monoandroid81" 
-  package id="xam.android.chocolate_sdk_core" version="2.8.7" targetFramework="monoandroid81" 
-  package id="xam.android.chocolate_unityads_adapter" version="1.0.1" targetFramework="monoandroid81" 
+Then, proceed to add the following packages listed in:
+
+https://github.com/chocolateplatform/xamarin-android-chocolate-sample/blob/master/ChocolateSample/packages.config
+
+You may need to clean and rebuild frequently at first while installing the packages.
 
