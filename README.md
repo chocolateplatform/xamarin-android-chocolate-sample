@@ -1,7 +1,7 @@
 Chocolate Sample
 =================
 
-This sample demonstrates how to display different types of ads using Chocolate Mediation Ads SDK.
+This sample demonstrates how to display different types of ads using Chocolate Mediation Ads SDK for Xamarin.
 It also dislays an AdMob 320x50 banner ad (not part of the Chocolate sdk).  If you want to build this project, please keep reading.
 
 See MainActivity.cs
