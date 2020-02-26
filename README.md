@@ -28,5 +28,6 @@ This project is targetted for MonoAndroid 8.1.
 IMPORTANT NOTE:  You must install version 60.1142.1 GooglePlayServices packages, since that version is compatable with MonoAndroid 8.1
 
 BUILD NOTE:  You will need to uninstall and re-install the chocolate packages as seen in the following screenshot:
-<image src="Screeshots/reinstall.png">
+
+<image src="https://github.com/chocolateplatform/xamarin-android-chocolate-sample/blob/master/Screenshots/reinstall.png">
 
