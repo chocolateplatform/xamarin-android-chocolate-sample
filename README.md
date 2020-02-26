@@ -20,11 +20,9 @@ Fullscreen Interstitial
  
 BUILD INSTRUCTIONS:
 1) Git clone this repo.   
-2) In Visual Studio 8.3.0+  you will need to uninstall and RE-INSTALL all package dependencies manually via NuGet package manager in Visual Studio.  
-
-This project is targetted for MonoAndroid 8.1.
-
-IMPORTANT NOTE:  You must install version 60.1142.1 GooglePlayServices packages, since that version is compatable with MonoAndroid 8.1
+2) In Visual Studio 8.3.0 or higher, you will need to uninstall and RE-INSTALL all package dependencies manually via NuGet package manager in Visual Studio.  
+3) Install GooglePlayServices version 60.1142.1 packages, since that version is compatable with MonoAndroid 8.1
+The higher versions will not work since this project is targeted for MonoAndroid 8.1.
 
 BUILD NOTE:  You will need to uninstall and RE-INSTALL the chocolate packages as seen in the following screenshot:
 
