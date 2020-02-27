@@ -36,19 +36,15 @@ namespace ChocolateSample
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            enableTestAds(DO_ENABLE_TEST_ADS);
 
             SetContentView(Resource.Layout.activity_main);
-
-            admobBannerAd = FindViewById<AdView>(Resource.Id.adView);
+            Chocolate.EnableChocolateTestAds(DO_ENABLE_TEST_ADS);
+            Chocolate.Init(this, CHOCOLATE_API_KEY, chocolateAdRequest, this);
+            
+            /* admobBannerAd = FindViewById<AdView>(Resource.Id.adView);
             chocolateInviewAdContainer = FindViewById<ViewGroup>(Resource.Id.chocolateInviewAdContainer);
             var adRequest = new AdRequest.Builder().Build();
-            admobBannerAd.LoadAd(adRequest);
-
-            //admobInterstitialAd = new InterstitialAd (this);
-            //admobInterstitialAd.AdUnitId = GetString (Resource.String.test_interstitial_ad_unit_id);
-
-            //admobInterstitialAd.AdListener = new AdListener (this);
+            admobBannerAd.LoadAd(adRequest); */
 
             loadInterstitialButton = FindViewById<Button>(Resource.Id.load_interstitial_button);
             loadInterstitialButton.SetOnClickListener(new OnClickListener(this, ADTYPE_INTERSTITIAL));
@@ -58,11 +54,10 @@ namespace ChocolateSample
             loadInviewButton.SetOnClickListener(new OnClickListener(this, ADTYPE_INVIEW));
 
             chocolateAdRequest = new LVDOAdRequest(this);
-
-            Chocolate.Init(this, CHOCOLATE_API_KEY, chocolateAdRequest, this);
             chocolateRewardedAd = new LVDORewardedAd(this, CHOCOLATE_API_KEY, this);
             chocolateInterstitialAd = new LVDOInterstitialAd(this, CHOCOLATE_API_KEY, this);
             chocolateInviewAd = new LVDOBannerAd(this, LVDOAdSize.IabMrect, CHOCOLATE_API_KEY, this);
+            
         }
 
         public void OnSuccess()
@@ -73,16 +68,6 @@ namespace ChocolateSample
         public void OnError(String message)
         {
 
-        }
-
-        //Enables ~some~ ad providing partners to show test ads
-        //in particular Chocolate and Amazon
-        //Other partners either don't allow test ads
-        //or there is some other way to enabled them.  
-        private void enableTestAds(bool enable)
-        {
-            VdopiaLogger.Enable(enable);
-            Chocolate.EnableChocolateTestAds(enable);
         }
 
         public void OnRewardedVideoLoaded(LVDORewardedAd var1)
