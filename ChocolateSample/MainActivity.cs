@@ -40,11 +40,12 @@ namespace ChocolateSample
             SetContentView(Resource.Layout.activity_main);
             Chocolate.EnableChocolateTestAds(DO_ENABLE_TEST_ADS);
             Chocolate.Init(this, CHOCOLATE_API_KEY, chocolateAdRequest, this);
-            
+
             /* admobBannerAd = FindViewById<AdView>(Resource.Id.adView);
-            chocolateInviewAdContainer = FindViewById<ViewGroup>(Resource.Id.chocolateInviewAdContainer);
             var adRequest = new AdRequest.Builder().Build();
             admobBannerAd.LoadAd(adRequest); */
+
+            chocolateInviewAdContainer = FindViewById<ViewGroup>(Resource.Id.chocolateInviewAdContainer);
 
             loadInterstitialButton = FindViewById<Button>(Resource.Id.load_interstitial_button);
             loadInterstitialButton.SetOnClickListener(new OnClickListener(this, ADTYPE_INTERSTITIAL));
